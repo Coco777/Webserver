@@ -655,7 +655,7 @@ char* getRespMsg (int code) {
   case 401: return "Authorization Required";    break;
   case 403: return "Forbidden";   break;
   case 404: return "Not Found";   break; /*要求したリソースが見つからなかった*/
-  case 418: return "I'm a teapot"; break; /*よくわからん*/
+  case 418: return "I'm a teapot"; break; 
   }
 }
 
